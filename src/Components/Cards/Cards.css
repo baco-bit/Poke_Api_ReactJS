@@ -1,0 +1,39 @@
+.card
+{
+    box-shadow: 4px 4px 5px rgb(128, 128, 128);
+    margin: 5px;
+    border: 1px solid black;
+    background-image: url(https://c0.klipartz.com/pngpicture/569/963/gratis-png-ilustracion-de-pokeball-ash-ketchum-pokeball-s.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.cards-item
+{
+    display: flex;
+    padding: 3px;
+    margin: 3px;
+}
+
+.img-body
+{
+    width: 100px;
+    height: 100px;
+}
+
+.card-header, .card-footer{
+    background-color: rgb(112, 79, 18);
+    color: black;
+}
