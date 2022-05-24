@@ -17,6 +17,7 @@ const Inicio = () => {
                         </p>
                     </blockquote>
                 </figure>
+
                 <h2 className='bg-dark text-white mb-5'>Opening</h2>
                 <iframe width='100%' height='500' src='./Img/opening.mp4' title='Youtube Video Player'></iframe>
             </div>

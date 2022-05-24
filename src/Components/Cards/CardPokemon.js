@@ -6,6 +6,10 @@ export const CardPokemon = ({ url }) => {
     const estado = UseFetch(url)
     const { cargando, data } = estado
     console.log(data)
+
+
+    
+
     return (
         <div>
             {
@@ -22,7 +26,7 @@ export const CardPokemon = ({ url }) => {
                         </div>
                         <div className='card-footer'>
                             <p className='card-text text-capitalize'>Nombre: {data.forms[0].name}</p>
-                            <p className='card-text text-capitalize'>Tipo: {data.types[0].type.name}</p>
+                            <p className='card-text text-capitalize'>Tipo: {data.types[0].type.name} </p>
                         </div>
                     </div>
             }
